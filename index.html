@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./assets/star.svg" type="assets/svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Universe</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Star+Jedi:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="./audio/star.mp3" type="audio/mp3">
+    </audio>
+    <video id="background-video" autoplay muted loop>
+        <source src="./video/fundo.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <header>
+        <h1>Star Wars Universe</h1>
+        <nav>
+            <a href="personagens.html">Personagens</a>
+            <a href="historias.html">Histórias</a>
+            <a href="sobre.html">Sobre a Obra</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="box-container">
+            <div class="box" onclick="location.href='personagens.html'">
+                <h2>Personagens</h2>
+            </div>
+            <div class="box" onclick="location.href='historias.html'">
+                <h2>Histórias</h2>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Star Wars. Todos os direitos reservados.</p>
+        <a href="https://disneyplus.com" target="_blank">Explorar Mais</a>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
