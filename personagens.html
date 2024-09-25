@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./assets/star.svg" type="assets/svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personagens - Star Wars Universe</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Star+Jedi:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="./audio/star.mp3" type="audio/mp3">
+    </audio>
+    <video id="background-video" autoplay muted loop>
+        <source src="./video/fundo.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <header>
+        <h1>Personagens</h1>
+        <nav>
+            <a href="./index.html">Inicio</a>
+            <a href="./personagens.html" class="active">Personagens</a>
+            <a href="./historias.html">Histórias</a>
+            <a href="./sobre.html" >Sobre a Obra</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="box-container">
+            <div class="box" onclick="location.href='./personagens/luke.html'">
+                <img src="./assets/luke-skywalker.jpg" alt="Luke Skywalker">
+                <h2>Luke Skywalker</h2>
+            </div>
+            <div class="box" onclick="location.href='leia-organa.html'">
+                <img src="./assets/leia-organa.jpg" alt="Leia Organa">
+                <h2>Leia Organa</h2>
+            </div>
+            <div class="box" onclick="location.href='darth-vader.html'">
+                <img src="./assets/darth-vader.jpg" alt="Darth Vader">
+                <h2>Darth Vader</h2>
+            </div>
+            <div class="box" onclick="location.href='han-solo.html'">
+                <img src="./assets/han-solo.jpg" alt="Han Solo">
+                <h2>Han Solo</h2>
+            </div>
+            <div class="box" onclick="location.href='yoda.html'">
+                <img src="./assets/yoda.jpg" alt="Yoda">
+                <h2>Yoda</h2>
+            </div>
+            <div class="box" onclick="location.href='chewbacca.html'">
+                <img src="./assets/chewbacca.jpg" alt="Chewbacca">
+                <h2>Chewbacca</h2>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Star Wars. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
