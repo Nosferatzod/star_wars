@@ -16,43 +16,72 @@
         <source src="./video/fundo.mp4" type="video/mp4">
         Seu navegador não suporta o elemento de vídeo.
     </video>
-    <header>
-        <h1>Personagens</h1>
-        <nav>
-            <a href="./index.html">Inicio</a>
-            <a href="./personagens.html" class="active">Personagens</a>
-            <a href="./historias.html">Histórias</a>
-            <a href="./sobre.html" >Sobre a Obra</a>
-        </nav>
+    <header class="header">
+        <div class="logo-container">
+            <img class="small-logo" src="./assets/star.svg" alt="Logo">
+        </div>
+        <div class="container">
+            <button class="navbar-toggler" id="toggleButton" aria-label="Toggle navigation">
+                <span class="hamburguer"></span>
+                <span class="hamburguer"></span>
+                <span class="hamburguer"></span>
+            </button>
+            <nav class="navbar" id="navbarNav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="./index.html" class="nav-link ">Inicio</a></li>
+                    <li class="nav-item"><a href="./personagens.html" class="nav-link active">Personagens</a></li>
+                    <li class="nav-item"><a href="./historias.html" class="nav-link">Histórias</a></li>
+                    <li class="nav-item"><a href="./sobre.html" class="nav-link">Sobre a Obra</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
         <section class="box-container">
             <div class="box" onclick="location.href='./personagens/luke.html'">
-                <img src="./assets/luke-skywalker.jpg" alt="Luke Skywalker">
+                <img src="./assets/luke.jfif" alt="Luke Skywalker">
                 <h2>Luke Skywalker</h2>
             </div>
-            <div class="box" onclick="location.href='leia-organa.html'">
-                <img src="./assets/leia-organa.jpg" alt="Leia Organa">
+            <div class="box" onclick="location.href='./personagens/leia-organa.html'">
+                <img src="./assets/lei.jfif" alt="Leia Organa">
                 <h2>Leia Organa</h2>
             </div>
-            <div class="box" onclick="location.href='darth-vader.html'">
-                <img src="./assets/darth-vader.jpg" alt="Darth Vader">
+            <div class="box" onclick="location.href='./personagens/darth-vader.html'">
+                <img src="./assets/vader.jfif" alt="Darth Vader">
                 <h2>Darth Vader</h2>
             </div>
-            <div class="box" onclick="location.href='han-solo.html'">
-                <img src="./assets/han-solo.jpg" alt="Han Solo">
+            <div class="box" onclick="location.href='./personagens/han-solo.html'">
+                <img src="./assets/solo.jfif" alt="Han Solo">
                 <h2>Han Solo</h2>
             </div>
-            <div class="box" onclick="location.href='yoda.html'">
-                <img src="./assets/yoda.jpg" alt="Yoda">
+            <div class="box" onclick="location.href='./personagens/yoda.html'">
+                <img src="./assets/yoda.jfif" alt="Yoda">
                 <h2>Yoda</h2>
             </div>
-            <div class="box" onclick="location.href='chewbacca.html'">
-                <img src="./assets/chewbacca.jpg" alt="Chewbacca">
+            <div class="box" onclick="location.href='./personagens/chewbacca.html'">
+                <img src="./assets/chubaca.jfif" alt="Chewbacca">
                 <h2>Chewbacca</h2>
             </div>
+            <!-- Mais personagens -->
+            <div class="box" onclick="location.href='./personagens/c-3po.html'">
+                <img src="./assets/c-3po.jfif" alt="C-3PO">
+                <h2>C-3PO</h2>
+            </div>
+            <div class="box" onclick="location.href='./personagens/r2-d2.html'">
+                <img src="./assets/r2-d2.jfif" alt="R2-D2">
+                <h2>R2-D2</h2>
+            </div>
+            <div class="box" onclick="location.href='./personagens/boba-fett.html'">
+                <img src="./assets/boba_fett.jfif" alt="Boba Fett">
+                <h2>Boba Fett</h2>
+            </div>
+            <div class="box" onclick="location.href='./personagens/mandalorian.html'">
+                <img src="./assets/mandalorian.jfif" alt="mandalorian">
+                <h2>Mandalorian</h2>
+            </div>
         </section>
+        
     </main>
 
     <footer>

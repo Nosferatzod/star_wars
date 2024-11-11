@@ -16,16 +16,25 @@
         <source src="./video/fundo.mp4" type="video/mp4">
         Seu navegador não suporta o elemento de vídeo.
     </video>
-    <header>
-        <h1>Sobre a Obra</h1>
-        <nav>
-            <nav>
-                <a href="./index.html">Inicio</a>
-                <a href="./personagens.html">Personagens</a>
-                <a href="./historias.html">Histórias</a>
-                <a href="./sobre.html" class="active">Sobre a Obra</a>
+    <header class="header">
+        <div class="logo-container">
+            <img class="small-logo" src="./assets/star.svg" alt="Logo">
+        </div>
+        <div class="container">
+            <button class="navbar-toggler" id="toggleButton" aria-label="Toggle navigation">
+                <span class="hamburguer"></span>
+                <span class="hamburguer"></span>
+                <span class="hamburguer"></span>
+            </button>
+            <nav class="navbar" id="navbarNav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="./index.html" class="nav-link ">Inicio</a></li>
+                    <li class="nav-item"><a href="./personagens.html" class="nav-link">Personagens</a></li>
+                    <li class="nav-item"><a href="./historias.html" class="nav-link">Histórias</a></li>
+                    <li class="nav-item"><a href="./sobre.html" class="nav-link active">Sobre a Obra</a></li>
+                </ul>
             </nav>
-        </nav>
+        </div>
     </header>
 
     <main>
